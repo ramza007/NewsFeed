@@ -17,9 +17,10 @@ def configure_request(app):
 
 
 def get_sources(source):
-    """
+    '''
     Function to retrieve news sources list from the News api
-    """
+    
+    '''
 
     get_sources_url = base_url.format(source, api_key)
     #get_sources_url = 'https://newsapi.org/v1/sources'.format(source, api_key)
@@ -38,10 +39,19 @@ def get_sources(source):
 
 
 def process_results(sources_list):
-    """Function that process the results list and transforms them into a list of objects
+    '''
+    Function that process the results list and transforms them into a list of objects
+    '''
+
+    '''
     Args: sources_list: A list of dictionaries that contains news sources details
+
+    '''
+
+    '''
     Returns:
-    sources_results: a list of news sources objects"""
+    sources_results: a list of news sources objects
+    '''
 
     sources_results = []
     for source_item in sources_list:
@@ -94,10 +104,6 @@ def process_articles(article_list):
         description = article_item.get('description')
         urlToArticle = article_item.get('url')
         publishedAt = article_item.get('publishedAt')
-
-        # if publishedAt != None:
-        #     # Call publish_date_format method to convert date to a display-friendly format
-        #     #date_to_display = article_item.publish_date_format(publishedAt) (self, author, title, description, urlToImage, url):
         article_object = Articles(
             source, title, description, urlToImage, urlToArticle, publishedAt)
         article_results.append(article_object)
