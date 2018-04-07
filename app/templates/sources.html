@@ -1,0 +1,12 @@
+{% block content %}
+    <title>{{title}}</title>
+
+    <div class="container">
+        <h2 class="article-header">Articles</h2>
+        <div class="row source-row">
+            <ul class="list-unstyled sourcs-list">
+                {{macro.displayArticleList(articles)}}
+            </ul>
+        </div>
+    </div>
+{% endblock %}
