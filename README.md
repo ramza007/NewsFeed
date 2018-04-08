@@ -17,7 +17,7 @@ This application lists various sources of news and subsequent highlights in each
 
 * open my [GitHub](https://github.com/ramza007)
 * find my repo *NewsFeed*
-* $ cd newsapp
+* $ cd Newsapp
 * $ python3.6 -m venv virtual (install virtual environment)
 * $ source virtual/bin/activate or virtual/scripts/activate
 * $ python3.6 -m pip install -r requirements.txt (install all dependencies)
