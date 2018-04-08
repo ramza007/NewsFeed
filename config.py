@@ -23,7 +23,7 @@ class DevConfig(Config):
     Configuration class for development stage of the app
     '''
 
-    DEBUG = True
+    DEBUG = False
 
 
 config_options = {
