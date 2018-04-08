@@ -9,7 +9,7 @@ This application lists various sources of news and subsequent highlights in each
 
 ---
 
-#### This [link](https://github.com/ramza007/NewsFeed/) will take to my live site on Git Hub
+#### This [link](https://github.com/ramza007/NewsFeed/) will take to my live site on Git Hub.
 
 ---
 
