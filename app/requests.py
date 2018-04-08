@@ -1,4 +1,4 @@
-
+from newsapi import NewsApiClient
 import urllib.request
 import json
 from .models import Sources, Articles
@@ -71,8 +71,7 @@ def get_articles(id):
     '''
     Function to get a source and it's articles
     '''
-    get_articles_url = 'https://newsapi.org/v2/top-headlines?sources={}&apiKey={}'.format(
-        id, api_key)
+    get_articles_url = 'https://newsapi.org/v2/top-headlines?sources={}&apiKey={}'.format(id, api_key)
 
     with urllib.request.urlopen(get_articles_url) as url:
         get_articles_data = url.read()
