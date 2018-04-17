@@ -23,7 +23,7 @@ def get_sources(source):
     '''
 
     get_sources_url = base_url.format(source, api_key)
-    #get_sources_url = 'https://newsapi.org/v1/sources'.format(source, api_key)
+    get_sources_url = 'https://newsapi.org/v1/sources'.format(source, api_key)
 
     with urllib.request.urlopen(get_sources_url) as url:
         get_sources_data = url.read()
