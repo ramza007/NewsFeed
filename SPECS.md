@@ -1,7 +1,13 @@
 ## Specifications
-| Behavior        | Input           | Outcome  |
-| ------------- |:-------------:| -----:|
-| Display News sources | N/A | In progress |
-| Articles from selected News source | **Click** a News source | In progress |
-| Display image, and other info | N/A | In progress |
-| Read an entire article | **Click** on an article | In progress |
+
+# Features
+* Displays news articles
+* Displays articles form selected news sources
+* Displays images and other information 
+* Ability to read other articles
+
+# Outcome 
+* Displays news articles well
+* Displays selected articles 
+* Images and other info present
+* Can read articles 
