@@ -1,11 +1,14 @@
-<!DOCTYPE html> {% extends 'base.html'%} {% import 'macros.html' as macro%} {% block content %}
-
-<div class="container">
-    <div class="row">
-        <ul>
-            {{ macro.displayArticleList(articles)}}
-        </ul>
+<!DOCTYPE html>
+<body style="background-color: black;">
+    {% extends 'base.html'%} {% import 'macros.html' as macro%} {% block content %}
+    <link href="https://fonts.googleapis.com/css?family=Monda" rel="stylesheet">
+    <div class="container" style="font-family: 'Monda', sans-serif;">
+        <div class="row">
+            <ul>
+                {{ macro.displayArticleList(articles)}}
+            </ul>
+        </div>
     </div>
-</div>
 
-{% endblock %}
+    {% endblock %}
+</body>
